@@ -1,0 +1,81 @@
+/* Estilos generales */
+.dashboard-options {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.dashboard-options h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.dashboard-options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard-options ul li {
+    margin-bottom: 10px;
+}
+
+.dashboard-options ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboard-options ul li a:hover {
+    background-color: #45a049;
+}
+.dashboard-options {
+    margin-bottom: 20px;
+}
+.dashboard-options .btn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#searchForm {
+    display: none;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+}
+#searchForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+#searchForm input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#searchForm button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#searchForm button:hover {
+    background-color: #45a049;
+}
